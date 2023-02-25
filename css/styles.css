@@ -1,0 +1,219 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: #8F8F8F;
+    line-height: 1.5;
+}
+
+/* Headings */
+    
+.big-heading {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Container */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section{
+    background-color: #FF4C68;
+    color: white;
+}
+
+
+.white-section{
+    background-color: white;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar-brand {    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+    font-weight: lighter;
+
+}
+
+
+
+/* Title */
+
+#title {
+    text-align: left;
+}
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;    
+}
+
+
+
+
+/* Features */
+
+
+#features {    
+    position: relative;
+}
+
+
+.feature-box{
+
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+
+/* Images and Icons */
+
+.rotateMobile{
+    margin-top: 50px;
+    /* width: 60%; */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+   
+}
+
+
+.icon{
+    color: #EF8172;
+    margin-bottom: 1rem;
+    
+}
+
+
+.icon:hover {
+    color: #FF4C68;
+    margin-bottom: 1rem;
+
+}
+
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.sm-icon{
+    margin: 3%;
+}
+
+
+
+
+/* Buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Pricing */
+
+
+.pricing-card-header{
+    font-size: 1.5rem;
+}
+
+.pricing-header{
+    margin-bottom: 5%;
+}
+
+.pricing-column{
+
+    padding: 3% 2%;
+}
+
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*Testimonials */
+
+#testimonials{   
+
+    background-color: #EF8172;
+
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press */
+
+#press{
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+
+
+
+@media (max-width: 964px) {
+    .rotateMobile{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
